@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box,;
+}
+
+@keyframes Go {
+0%{
+      transform: translateX(0px);
+    }
+    
+    60% {
+      background-color: blue;
+      border-radius: 20px;
+      transform: rotate(10deg)   scale(1.1);
+      background-color: black;
+    }
+  100%{
+      transform: translateX(1300px);
+    }
+  }
+
+
+.box {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+  }
+
+.box:hover{
+    animation: Go 3s ease-in-out ;
+  }
+  
+  
+
